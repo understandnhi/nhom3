@@ -1,0 +1,46 @@
+.slider{
+    float: left;
+    position: relative;
+    width: 766px;
+    height: 483px;
+    margin:auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    display: none;
+    outline: thick black
+}
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slider button{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background-color: rgb(252, 253, 252);
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    outline: black;
+    border-radius: 50%;
+    margin: 4px, 4px;
+}
+.slider button:hover{
+    background-color: rgb(25, 239, 14);
+    color: white;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+@keyframes fade{
+    from{opacity: .5}
+    to{opacity: 1}
+}
