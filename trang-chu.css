@@ -669,7 +669,7 @@
   position: relative;
   align-items: center;
   z-index: 1;
-  right: -300px;
+  /*right: -300px; */
 }
 .tng-cng-ty-pisico-bnh-nh-wrapper {
   align-self: stretch;
@@ -689,7 +689,8 @@
   box-sizing: border-box;
   padding-left: var(--padding-xl);
   cursor: pointer;
-  left: -100px;
+  left: -64px;
+    top: -148px;
 }
 .xem-thm-wrapper {
   align-self: stretch;
